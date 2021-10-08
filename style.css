@@ -167,3 +167,68 @@ a:hover{
     font-size: 30px;
     font-weight: bold;
 }
+
+@media (max-width:600px) {
+  
+    section{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+        
+    }
+
+    .img-char{
+        position: absolute;
+        opacity: .3;
+    }
+
+    .about-char{
+        z-index: 1;
+        width: 100vw;
+        flex: auto;
+        opacity: .8;
+    }
+
+    .name{
+        font-size:22px ;
+    }
+
+    .title{
+        width: 100%;
+        font-size: 22px;
+    }
+    
+    .content{
+        line-height: 30px;
+        padding: 0 5px;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    .slider--controls{
+        display: none;
+    }
+    
+    .slider--item{
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+    }
+
+    .slider--item div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0)  1%,transparent 100%);
+    
+    }
+
+    footer{
+        height: 20vh;
+    }
+}
